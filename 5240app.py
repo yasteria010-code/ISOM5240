@@ -1,3 +1,4 @@
+import streamlit
 from transformers import pipeline
 from PIL import Image
 
