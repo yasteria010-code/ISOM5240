@@ -29,7 +29,7 @@ def output_msg(age_predictions):
     st.write("Predicted Age Range:")
     st.write(f"Age range: {age_predictions[0]['label']}")
     
-    st.write(""Done"")    
+    st.write("Done")    
 
 
 
