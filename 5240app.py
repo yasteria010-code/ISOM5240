@@ -9,7 +9,7 @@ import streamlit as st
 def ageClassifier(imgFilename, modelName):
     # Load the age classification pipeline
     # The code below should be placed in the main part of the program
-    age_classifier = pipeline(""image-classification"", 
+    age_classifier = pipeline("image-classification", 
                               model=modelName)
     
     image_name = imgFilename
